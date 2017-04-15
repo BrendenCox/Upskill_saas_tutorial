@@ -28,13 +28,32 @@ h1, h2, h3 {
   background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.navbar{
+.navbar {
   border: none;
 }
 
+.navbar-default .navbar-brand {
+  color: char;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: black;
+  opacity: 0.50;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
+  opacity: 0.50;
+}
+
 .home-callout {
+  color: char;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
-  color: char;
+  
 }
